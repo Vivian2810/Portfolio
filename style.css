@@ -5,13 +5,30 @@
     text-decoration: none;
 }
 
+@keyframes apparition {
+    
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
 html{
     font-size: 62.5%;
+    background-image: url(img/background.jpg);
+    background-size: cover;
 }
 
 body{
+    width: 95%;
+    margin: auto;
     font-size: 1.4rem;
-    background-image: url(img/background.jpg);
     background-repeat: repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(230, 230, 230);
@@ -24,12 +41,14 @@ header{
     justify-content: space-around;
     background-color: #1E2337;
     border-radius:0px 0px 30px 30px;
+    margin-bottom: 50px;
 }
 
 #bienvenue{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 1.5rem;
 }
 
@@ -61,4 +80,46 @@ nav a:hover
 {
     color: #a70003;
     border-bottom: 3px solid #6900026b;
+}
+
+section{
+    text-align: center;
+}
+
+.mess{
+    font-size: xx-large;
+    margin-top: 35rem;
+    margin-bottom: 45rem;
+    animation: apparition 2s ease-out;
+}
+
+#titre_G{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: #1E2337;
+    border-radius:10px;
+    margin: right ;
+    margin-left: 2.5rem;
+    margin-bottom: 10rem;
+}
+
+#titre_D{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    background-color: #1E2337;
+    border-radius:10px;
+    margin: left ;
+    margin-right: 2.5rem;
+    margin-bottom: 10rem;
+}
+
+
+#avatar{
+    margin-right: 10px;
 }
