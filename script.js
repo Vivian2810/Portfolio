@@ -16,4 +16,4 @@ function smoothScroll(){
     callScroll = requestAnimationFrame(smoothScroll);
 }
 
-smoothScroll();
+//smoothScroll();
