@@ -170,6 +170,10 @@ article{
     margin-bottom: 1.5rem;
 }
 
+.veto:hover{
+    width: 50%;
+}
+
 footer{
     background-color: #000;
     text-align: center;
