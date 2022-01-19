@@ -23,12 +23,27 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
 body{
     background-image: url(img/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(125deg, #d147e8 0, #ac30de 25%, #7e10d0 50%, #4300c2 75%, #0000b8 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1e2337d3; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+  }
+  
 
 #bloc_page{
     width: 95%;
@@ -88,8 +103,8 @@ section{
 
 .mess{
     font-size: xx-large;
-    margin-top: 35rem;
-    margin-bottom: 50rem;
+    margin-top: 40rem;
+    margin-bottom: 45rem;
     animation: apparition 2s ease-out;
 }
 
