@@ -29,6 +29,8 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    color: rgb(230, 230, 230);
+
 }
 
 body::-webkit-scrollbar{
@@ -51,7 +53,6 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.4rem;
     background-repeat: repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(230, 230, 230);
 }
 
 header{
@@ -88,7 +89,6 @@ nav a
     font-size: 1.3em;
     padding-bottom: 3px;
     text-decoration: none;
-    color: rgb(230, 230, 230);
 }
 
 nav a:hover
@@ -117,7 +117,7 @@ article{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     background-color: #1e2337d3;
     border-radius:10px;
     margin: right ;
@@ -130,7 +130,7 @@ article{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     background-color: #1e2337d3;
     border-radius:10px;
     margin: left ;
@@ -183,6 +183,20 @@ article{
     margin-left: 20rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.detail{
+    justify-content: center;
+    
+}
+
+a:link{
+    color: rgb(230, 230, 230);
+
+}
+
+a:visited{
+    color: rgb(230, 230, 230);
 }
 
 .veto:hover{
