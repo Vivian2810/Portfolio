@@ -19,6 +19,7 @@
 
 }
 
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -47,7 +48,7 @@ body::-webkit-scrollbar-thumb {
   }
   
 
-#bloc_page{
+.bloc_page{
     width: 95%;
     margin: auto;
     font-size: 1.4rem;
@@ -63,13 +64,6 @@ header{
     background-color: #241d38d3;
     border-radius:0px 0px 30px 30px;
     margin-bottom: 50px;
-}
-
-#bienvenue{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     padding: 1.5rem;
 }
 
@@ -89,6 +83,7 @@ nav a
     font-size: 1.3em;
     padding-bottom: 3px;
     text-decoration: none;
+
 }
 
 nav a:hover
@@ -101,7 +96,7 @@ section{
     text-align: center;
 }
 
-.mess{
+.welk_mess{
     font-size: xx-large;
     margin-top: 40rem;
     margin-bottom: 45rem;
@@ -112,7 +107,9 @@ article{
     margin-bottom: 10rem;
 }
 
-#titre_G{
+
+/** titre **/
+.art__titre{
     padding: 1.2rem;
     display: flex;
     flex-direction: row;
@@ -120,28 +117,38 @@ article{
     justify-content: space-between;
     background-color: #1e2337d3;
     border-radius:10px;
-    margin: right ;
     margin-left: 5rem;
+}
+
+.art__titre_G{
+    margin: right ;
+}
+
+.art__titre_D{
+    margin: left ;
     
 }
 
-#titre_D{
-    padding: 1.2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1e2337d3;
-    border-radius:10px;
-    margin: left ;
-    margin-right: 5rem;
-}
-
-#avatar{
+/** avatar des article**/
+.art__titre__avatar{
     margin-right: 10px;
 }
 
-.text_G{
+/** détail des article **/
+.art__titre__detail{
+    justify-content: center;
+    
+}
+
+/** oraganisation du contenue de chaque parties **/
+.art__cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/**text dans les parties **/
+.art__cont__text{
     padding: 3rem;
     background-color: #291e3798;
     margin-left: 6.5rem;
@@ -150,44 +157,23 @@ article{
     font-size: x-large;
 }
 
-.cont_G{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+.art__cont__text_G{
+    margin-right: 1.5rem;
 }
 
-#img_G{
+/** image dans les parties**/
+.art__cont__img{
     border-radius: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.art__cont__img_D{
     margin-right: 20rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
-.text_D{
-    padding: 3rem;
-    background-color: #291e3798;
-    margin-right: 6.5rem;
-    width: 70%;
-    border-radius: 0px 0px 10px 10px;
-    font-size: x-large;
-}
-
-.cont_D{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-#img_D{
-    border-radius: 10px;
+.art__cont__img_G{
     margin-left: 20rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.detail{
-    justify-content: center;
-    
 }
 
 a:link{
@@ -199,7 +185,7 @@ a:visited{
     color: rgb(230, 230, 230);
 }
 
-.veto:hover{
+.art__cont__veto:hover{
     width: 50%;
 }
 
