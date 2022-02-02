@@ -40,7 +40,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-track {
-    background: linear-gradient(125deg, #d147e8 0, #ac30de 25%, #7e10d0 50%, #4300c2 75%, #0000b8 100%);
+    background-image: linear-gradient(to bottom, #933ea1, #7a2f93, #602084, #471276, #2b0567);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -68,6 +68,7 @@ header{
     border-radius:0px 0px 30px 30px;
     margin-bottom: 50px;
     padding: 1.5rem;
+    
 }
 
 /** modif comportement lien nav **/
@@ -87,13 +88,12 @@ nav a
     font-size: 1.3em;
     padding-bottom: 3px;
     text-decoration: none;
-
+    transition: 0.4s;
 }
 
 nav a:hover
 {
-    color: #a70003;
-    border-bottom: 3px solid #6900026b;
+    color: #666666;
 }
 /** .. **/
 
@@ -124,6 +124,7 @@ article{
     background-color: #1e2337d3;
     border-radius:10px;
     margin-left: 5rem;
+    box-shadow: 10px 7px 20px #33223dd3;
 }
 
 .art__titre_G{
@@ -203,7 +204,17 @@ a:link{
 a:visited{
     color: rgb(230, 230, 230);
 }
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(139, 138, 138);
+}
+
 /** .. **/
+
+a{
+    transition: 0.5s;
+}
 
 .list_photos{
     display: flex;
