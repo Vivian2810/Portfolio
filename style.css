@@ -56,6 +56,7 @@ body::-webkit-scrollbar-thumb {
     background-repeat: repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 /** .. **/
 
 header{
@@ -156,12 +157,13 @@ article{
 
 /**text dans les parties **/
 .art__cont__text{
-    padding: 3rem;
+    padding: 5rem;
     background-color: #291e3798;
     margin-left: 6.5rem;
     width: 70%;
     border-radius: 0px 0px 10px 10px;
-    font-size: x-large;
+    font-size: 2rem;
+    
 }
 
 .art__cont__text_G{
@@ -174,15 +176,14 @@ article{
     border-radius: 10px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-}
-
-.art__cont__img_D{
-    margin-right: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .art__cont__img_G{
-    margin-left: 20rem;
+    margin-left: 12rem;
 }
+
 /** .. **/
 
 /** agrandissement image bon veto **/
@@ -201,6 +202,23 @@ a:visited{
     color: rgb(230, 230, 230);
 }
 /** .. **/
+
+.list_photos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin:  5rem auto 0;
+    justify-content: center;
+}
+
+.list_photos img{
+    width: auto;
+    height: 50rem;
+    margin: 3rem;
+    box-shadow: 10px 7px 20px #33223dd3;
+    border-radius: 5px;
+
+}
 
 footer{
     background-color: #000;
