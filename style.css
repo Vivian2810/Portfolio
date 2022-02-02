@@ -102,9 +102,11 @@ section{
 }
 
 .welk_mess{
+    display: flex;
     font-size: xx-large;
-    margin-top: 40rem;
-    margin-bottom: 45rem;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
     animation: apparition 2s ease-out;
 }
 
