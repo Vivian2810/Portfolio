@@ -132,6 +132,12 @@ article{
     box-shadow: 10px 7px 20px #33223dd3;
 }
 
+.art__titre div {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
 .art__titre_G{
     margin: right ;
 }
