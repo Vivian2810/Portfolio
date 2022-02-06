@@ -23,6 +23,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -58,6 +59,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 /** .. **/
+
+.titre:link{
+    text-decoration: none;
+}
 
 header{
     display: flex;
@@ -199,11 +204,12 @@ article{
 /** tous les liens en blanc **/
 a:link{
     color: rgb(230, 230, 230);
-
+    text-decoration: underline;
 }
 
 a:visited{
     color: rgb(230, 230, 230);
+    text-decoration: underline;
 }
 
 a:hover{
@@ -239,6 +245,6 @@ footer{
     text-align: center;
     color: rgb(255, 255, 255);
     width: 100%;
-    padding: 3rem;
+    padding: 2%;
     font-size: 1.3rem;
 }
