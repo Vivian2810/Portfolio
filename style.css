@@ -299,7 +299,7 @@ footer {
 }
     
 .thumbnails img {
-    padding-left: 05rem;
+    padding: 1rem 2rem 0 3rem;
     width: 20vmin;
     height: 14vmin;
     object-fit: cover;
@@ -329,11 +329,11 @@ footer {
   
 .slides li:target {
     z-index: 3;
-    -webkit-animation: slide 1s 1;
+    animation: slide 1s 1;
 }
   
 .slides li:not(:target) {
-    -webkit-animation: hidden 1s 1;
+    animation: hidden 1s 1;
 }
   
 @keyframes slide {
