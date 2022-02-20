@@ -277,11 +277,11 @@ footer {
 /** test carousel**/
 .container {
     padding: 0.5rem;
-    margin-right: 0.7rem;
+    margin-right: 1rem;
     display: flex;
     justify-content: center;
     background-color: #00000067;
-    border-radius: 2%;
+    border-radius: 0 0 2% 2%;
   }
   
 .thumbnails {
