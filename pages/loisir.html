@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfolio Vivian / Loisirs </title><!-- A changer à chaque Projet --> 
-        <link rel="stylesheet" href="../style.css">
-        <link rel="icon" href="../img/icon_Portfolio.png" />
-    </head>
 
-    <body>
-        <div class="bloc_page smooth-scroll-wrapper">
-            <header>
-                    <a class="titre" href="../index.html"><h1 >Vivian Michel</h1></a>
-                    <h1>Loisirs</h1>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Vivian / Loisirs </title><!-- A changer à chaque Projet -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../img/icon_Portfolio.png" />
+</head>
 
-            <section>
-                <div class="welk_mess">
-                    <h1>
-                        Voici quelques-uns de mes loisirs 
-                    </h1>
-                </div>
-            </section>
-        </div>
+<body>
+    <div class="bloc_page smooth-scroll-wrapper">
+        <header>
+            <a class="titre" href="../index.html">
+                <h1>Vivian Michel</h1>
+            </a>
+            <h1>Loisirs</h1>
+            <nav>
+                <ul class="nav">
+                    <li><a class="nav__link" href="#Photo">Photographie</a></li>
+                    <li><a class="nav__link" href="#Escrime">Escrime</a></li>
+                    <li><a class="nav__link" href="#Vtt">VTT</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <footer>
-            <div>
-                Réalisé par Vivian Michel©
+        <section>
+            <div class="welk_mess">
+                <h1>
+                    Voici quelques-uns de mes loisirs
+                </h1>
             </div>
-        </footer>
-    </body>
+
+
+            <article id="Photo">
+                <div class="art__titre">
+                    <div>
+                        <img class="art__titre__avatar" src="../img/appareil_photo.png" alt="" height="35px">
+                        <h2>Photographie</h2>
+                    </div>
+                </div>
+                <div class="art__cont">
+                    <div class="art__cont__text">
+                        Je suis aussi un jeune photographe amateur. Je me passionne particulièrement pour la photo de
+                        paysage et l'astrophotographie.
+                        <a href="../pages/photographie.html">Lien pour voir certaines de mes photos 📷</a>
+                    </div>
+                    <img class="art__cont__img" src="../img/photo_ilustration.jpg" alt="illustration photo" width="15%">
+
+                </div>
+            </article>
+            <article id="Escrime">
+                <div class="art__titre art__titre_D">
+                    <div>
+                        <img class="art__titre__avatar" src="../img/escrime.png" alt="icone escrime" height="45px">
+                        <h2>Ecrime</h2>
+                    </div>
+                </div>
+                <div class="art__cont">
+                    <img class="art__cont__img art__cont__img_G" src="../img/ecrime_moi.jpg" alt="photo d'escrime" width="15%">
+                    <div class="art__cont__text art__cont__text_G">
+                        
+                    </div>
+                </div>
+            </article>
+            <article id="Vtt">
+                <div class="art__titre">
+                    <div>
+                        <img class="art__titre__avatar" src="../img/vtt.png" alt="icone vtt" height="35px">
+                        <h2>VTT</h2>
+                    </div>
+                </div>
+                <div class="art__cont">
+                    <div class="art__cont__text">
+                        
+                    </div>
+                    <img class="art__cont__img " src="../img/velo_moi.jpg" alt="photo d'escrime" width="15%">
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <div>
+            Réalisé par Vivian Michel©
+        </div>
+    </footer>
+</body>
+
 </html>

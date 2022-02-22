@@ -133,7 +133,7 @@ article {
 .art__titre div {
     display: flex;
     align-items: center;
-    padding-left: 0.5rem;
+    /*padding-left: 0.5rem;*/
 }
 
 .art__titre_G {
@@ -238,10 +238,6 @@ a {
     margin: 3rem;
     box-shadow: 10px 7px 20px #33223dd3;
     border-radius: 5px;
-}
-
-button{
-    
 }
 
 /** carrousel **/
