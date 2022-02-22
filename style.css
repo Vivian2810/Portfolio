@@ -106,6 +106,7 @@ section {
 
 .welk_mess {
     display: flex;
+    flex-direction: column;
     font-size: xx-large;
     height: 90vh;
     justify-content: center;
