@@ -6,6 +6,7 @@
     <title>Portfolio Vivian </title><!-- A changer à chaque Projet -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon_Portfolio.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -86,10 +87,11 @@
             <article id="ProjetPro" class="art">
                 <div class="art__titre art__titre_G">
                     <div>
-                        <img class="art__titre__avatar" src="img/management.png" alt="icone projet professionel" height="40px">
+                        <img class="art__titre__avatar" src="img/management.png" alt="icone projet professionel"
+                            height="40px">
                         <h2>Projet Professionnel</h2>
                     </div>
-                    
+
                 </div>
                 <div class="art__cont">
                     <div class="art__cont__text ">
@@ -139,7 +141,17 @@
         </div>
     </footer>
 
+    <span class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </span>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
     <script src="script.js"></script>
+
 </body>
 
 </html>

@@ -6,6 +6,7 @@
     <title>Portfolio Vivian / Réalisations </title><!-- A changer à chaque Projet -->
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../img/icon_Portfolio.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -72,7 +73,36 @@
                 </div>
 
             </article>
-            <article></article>
+            <article>
+                <div class="art__titre">
+                    <div>
+                        <img class="art__titre__avatar" src="../img/manette-jeu.png" alt="icone de jeu " width="35px">
+                        <h2>Déalisation d'un jeu à but éducatif</h2>
+                    </div>
+                </div>
+                <div class="art__cont">
+                    <img class="art__cont__img art__cont__img_G" src="../img/algokid.JPG" alt="image de menu du jeu"
+                        width="30%">
+                    <div class="art__cont__text art__cont__text_G">
+                        À la fin de ma deuxième année de DUT informatique, nous avions un projet à réaliser par groupe
+                        de 5-6 personne
+                        pour répondre à une demande client. Notre projet était de réaliser un jeu vidéo à but éducatif
+                        pour apprendre
+                        à des jeunes de primaire le développement algorithmique et séquentiel.<br><br>
+                        Pour ce faire nous avons décider de développer notre jeux en C# pour la getion du jeux, Blender
+                        pour la créations
+                        des modeles 3D et les animations ainsi que l'outil de développement Unity pour faire fonctionner
+                        le tout. Nous
+                        nous somme répartis les tâches entre les différentes personne du projet. je me suis occupé du
+                        meunu principale du
+                        jeux, de la partie graphique du choix des acctions ainsi que des models 3D des personnages et
+                        des éléments du
+                        décors. <br>
+                        <br>
+                        Lien vers le jeu jouable en ligne : <a href="https://warplextech.com/site/algokid/">AlgoKid</a>
+                    </div>
+                </div>
+            </article>
             <article></article>
             <article></article>
         </section>
@@ -84,6 +114,15 @@
             Réalisé par Vivian Michel©
         </div>
     </footer>
+
+    <span class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </span>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
 
     <script src="../script.js"></script>
 </body>

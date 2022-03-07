@@ -6,6 +6,7 @@
     <title>Portfolio Vivian / Loisirs </title><!-- A changer à chaque Projet -->
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../img/icon_Portfolio.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -85,6 +86,16 @@
             Réalisé par Vivian Michel©
         </div>
     </footer>
+
+    <span class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </span>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
 </body>
 
 </html>
