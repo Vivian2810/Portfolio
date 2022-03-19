@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Vivian Michel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Vivian / Réalisations </title><!-- A changer à chaque Projet -->
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../img/icon_Portfolio.png" />
@@ -122,6 +124,19 @@
         $(window).on("load", function () {
             $(".loader-wrapper").fadeOut("slow");
         });
+
+        const size = carrouselImage[0].clientWidth;
+
+        body.style.height = Math.floor(height) + "px";
+
+        function smoothScroll() {
+            offset += (window.pageYOffset - offset) * speed;
+
+            var scroll = "translateY(-" + offset + "px) translateZ(0)";
+            scrollWrap.style.transform = scroll;
+
+            callScroll = requestAnimationFrame(smoothScroll);
+        }
     </script>
 
     <script src="../script.js"></script>
