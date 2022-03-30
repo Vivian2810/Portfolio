@@ -84,7 +84,7 @@
                 </div>
                 <div class="art__cont">
                     <img class="art__cont__img art__cont__img_G" src="../img/algokid.JPG" alt="image de menu du jeu"
-                        width="30%">
+                        height="250rem">
                     <div class="art__cont__text art__cont__text_G">
                         À la fin de ma deuxième année de DUT informatique, nous avions un projet à réaliser par groupe
                         de 5-6 personne
@@ -113,7 +113,9 @@
 
     <footer>
         <div>
-            Réalisé par Vivian Michel©
+            Réalisé par Vivian Michel© | 
+            <a class="lien_autre" href="https://www.linkedin.com/vivianmichel-28/"> <img src="img/icons8-linkedin-30.png" alt="" srcset=""> </a> 
+            <a class="lien_autre" href="https://www.instagram.com/_vivi_28/?hl=fr"> <img src="img/instagram.png" alt="" srcset="" > </a>
         </div>
     </footer>
 
@@ -125,18 +127,6 @@
             $(".loader-wrapper").fadeOut("slow");
         });
 
-        const size = carrouselImage[0].clientWidth;
-
-        body.style.height = Math.floor(height) + "px";
-
-        function smoothScroll() {
-            offset += (window.pageYOffset - offset) * speed;
-
-            var scroll = "translateY(-" + offset + "px) translateZ(0)";
-            scrollWrap.style.transform = scroll;
-
-            callScroll = requestAnimationFrame(smoothScroll);
-        }
     </script>
 
     <script src="../script.js"></script>

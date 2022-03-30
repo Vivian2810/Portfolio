@@ -334,10 +334,23 @@ footer {
     color: rgb(255, 255, 255);
     width: 100%;
     padding: 2%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.lien_autre{
+    display: flex;
+    align-items: center;
+}
+
+.lien_autre:link {
+    text-decoration: none;
+}
 
 /** test carousel**/
 .container {
