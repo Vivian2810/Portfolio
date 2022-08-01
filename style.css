@@ -529,4 +529,8 @@ footer div {
     .nav{
         display: none;
     }
+
+    .present{
+        display: block;
+    }
 }
